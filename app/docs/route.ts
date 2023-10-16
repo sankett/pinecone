@@ -5,12 +5,12 @@ import { VectorDBQAChain } from "langchain/chains";
 import { OpenAI } from "langchain/llms/openai";
 
 function initPineconeClient() {
-    const pinecone = new Pinecone({
-        apiKey: process.env.PINECONE_API_KEY,
-        environment: process.env.PINECODE_ENV,
-    });
+  const pinecone = new Pinecone({
+    apiKey: process.env.PINECONE_API_KEY || "",
+    environment: process.env.PINECODE_ENV || "",
+  });
    
-    return pinecone;
+  return pinecone;
 }
 
 
