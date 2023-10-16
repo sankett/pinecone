@@ -67,7 +67,7 @@ useEffect(() => {
         <div style={{width: "100%", backgroundColor: "teal", borderRadius: "3px", padding: "10px", height: "80vh"}}>
             <div style={{width: "100%", marginTop: "-2px"}}>
             <h3 style={{color: "yellow", float: "left", width: "90%"}}>
-              Langchain - Vector Demo uing PineCone
+              Langchain - Vector Demo using PineCone
            
            </h3>
             <img src="https://storybook7.blob.core.windows.net/images/sanketterdal.png" 
